@@ -140,7 +140,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/博客首页/" style="font-size: 10px;">博客首页</a>
+                        <a href="/tags/博客首页/" style="font-size: 10px;">博客首页</a> <a href="/tags/文章/" style="font-size: 10px;">文章</a>
                     </div>
                 </section>
                 
@@ -187,11 +187,11 @@
             <nav class="header-menu">
                 <ul>
                 
-                    <li><a href="/index">博客首页</a></li>
+                    <li><a href="/">博客首页</a></li>
                 
-                    <li><a href="/docment">文章</a></li>
+                    <li><a href="/">文章</a></li>
                 
-                    <li><a href="/navigation">前端导航</a></li>
+                    <li><a href="/">前端导航</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -213,6 +213,68 @@
     </div>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-iis服务器权限问题" class="article article-type-post" itemscope="" itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/01/16/iis服务器权限问题/" class="article-date">
+      <time datetime="2019-01-16T14:38:38.000Z" itemprop="datePublished">2019-01-16</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/16/iis服务器权限问题/">iis服务器权限问题</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>一台装着iis8.0 Windows的服务器上 打完KB3042553的sys.的远程执行代码的补丁后<br>服务挂掉了 本地127.0.0.1 报错权限不足 远程连接失败 </p>
+<p>大概花了一上午的时间 百度 Google 很多试过了 </p>
+<p>一、修改权限 加Everyone账户 添加修改权限 添加iis的用户<br>二、dos命令行 unknown节点<br>三、修改iis服务器的程序资源池的 -&gt; 高级设置改为true</p>
+<p>后来同事把网站搬到了C盘 改掉了服务器上物理地址 搞定 </p>
+
+      
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/文章/">文章</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-一英尺宽-一英尺深" class="article article-type-post" itemscope="" itemprop="blogPost">
   
